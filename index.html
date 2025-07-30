@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+        <div class="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="searching">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="What do you want to play?">
+        </div>
+        <div class="premium">
+            <nav>
+            <li>
+                <ul>Premium</ul>
+                <ul>Support</ul>
+                <ul>Download</ul>
+            </li>
+        </nav>
+        </div>
+        <nav>
+            <li>
+                <ul>Install App</ul>
+                <ul>Sign in</ul>
+                <p>Log In</p>
+            </li>
+        </nav>
+    </div>
+    <h2>Recents</h2>
+    <div class="boxes">
+        <div class="box">
+            <img src="download.jpg" alt="">
+            <i id="play" class="fas fa-2x fa-solid fa-play"></i>
+            <p>Vesane O nichana</p>
+            <p id="light">Rowdy Boys</p>
+        </div>
+        <div class="box">
+            <img src="lemontree.jpg" alt="">
+            <i id="play" class="fas fa-2x fa-solid fa-play"></i>
+            <p>Lemon Tree</p>
+            <p id="light">Fools Garden</p>
+        </div>
+        <div class="box">
+            <img src="letme.jpg" alt="">
+            <i id="play" class="fas fa-2x fa-solid fa-play"></i>
+            <p>Let Me Love You</p>
+            <p id="light">Alex Benjamin</p>
+        </div>
+        <div class="box">
+            <img src="moral.jpg" alt="">
+            <i id="play" class="fas fa-2x fa-solid fa-play"></i>
+            <p>Moral of The Story</p>
+            <p id="light">Ashe</p>
+        </div>
+        <div class="box">
+            <img src="shaky.jpg" alt="">
+            <i id="play" class="fas fa-2x fa-solid fa-play"></i>
+            <p>Shaky</p>
+            <p id="light">Sanju Rathod</p>
+        </div>
+        <div class="box">
+            <img src="summer.jpg" alt="">
+            <i id="play" class="fas fa-2x fa-solid fa-play"></i>
+            <p>SummerTime Sadness</p>
+            <p id="light">Lana del Rey</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="icons">
+            <i id="bs" class="fas fa-2x fa-backward-step"></i>
+            <i id="plays" class="fas fa-2x fa-solid fa-play"></i>
+            <i id="fs" class="fas fa-2x fa-solid fa-forward-step"></i>
+        </div>
+        <input id="bar" type="range" min="0" max="100" value="0">
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
